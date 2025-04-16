@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .left, .right {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .left {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #111;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #ff3c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+  }
+  
+  form button:hover {
+    background-color: #e03131;
+  }
+  
+  .signin {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .signin a {
+    color: #ff3c3c;
+    text-decoration: none;
+  }
+  
+  .right {
+    background: url("1f3e2b09954e6a20c324d0fdb145c189 (1).jpeg") no-repeat center center / cover;
+  }
+  
