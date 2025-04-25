@@ -12,7 +12,6 @@ section {
   width: 100%;
 }
 
-/* Общий контейнер формы */
 .signup-section .container {
   display: flex;
   width: 100%;
@@ -453,7 +452,7 @@ form button:hover {
 }
 
 .lol-overlay {
-  background-color: rgba(0, 0, 0, 0.75); /* Чуть темнее */
+  background-color: rgba(0, 0, 0, 0.75); 
   padding: 30px 60px;
   min-height: 100vh;
   display: flex;
